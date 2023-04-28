@@ -1,8 +1,8 @@
 package contactUsPageTest;
 
 import org.testng.Assert;
-import org.testng.annotations.AfterTest;
-import org.testng.annotations.BeforeTest;
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
 import BaseLayer.BaseClass;
@@ -11,7 +11,7 @@ import UtilsLayer.ScreenShot;
 
 public class ContactUsPage extends BaseClass {
 	
-	@BeforeTest
+	@BeforeClass
 	public void setup()
 	{
 		BaseClass.intialization();
@@ -50,7 +50,7 @@ public class ContactUsPage extends BaseClass {
 		sc.getScreenShot("Abc1");	
 	}
 	
-	@AfterTest()
+	@AfterClass()
 	public void tearDown()
 	{
 		driver.close();

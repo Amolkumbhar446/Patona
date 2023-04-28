@@ -6,7 +6,10 @@
       <class name="contactUsPageTest.ContactUsPage">
         <methods>
           <include name="validateCountryDrpDwn"/>
+          <include name="screenShot"/>
+          <include name="setup"/>
           <include name="validateContactUspage"/>
+          <include name="tearDown"/>
           <include name="validateherdaboutDrpDwn"/>
         </methods>
       </class> <!-- contactUsPageTest.ContactUsPage -->
